@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>homepage</title>
+        <meta charset="UTF-8">
+        <style>
+    @font-face {
+      font-family:"TopazPlus";
+      src: url(topazplus500.ttf);
+    }
+    body {
+      color: #DDDDDD;
+      background-color: #32323d;
+      font-size: 16px;
+      line-height: 16px;
+      margin: 0 auto;
+      
+    }
+    .center {
+       margin: auto;
+       position: absolute;
+       left: 40%;
+       top: 40%;
+    }
+  pre { font-family:"TopazPlus", "Lucida Console", monospace, Monaco; }
+    a { color: #f4b6e5; text-decoration: none; }
+   ik { color: #87ffff; }
+    y { color: #f0c674; }
+   gr { color: #b5bd68; }
+    r { color: #9e0034; }
+    w { color: #ffffff; }
+ pink { color: #f4b6e5; }
+   bb { color: #5cc2ca; }
+ purp { color: #7a80a2; }
+    l { color: #c5c8c6; }
+   lg { color: #9de9a9; }
+  sea { color: #93ff4c; }
+   
+        </style>
+    </head>
+<body><center><div class="center" style="text-align: left; "><pre>
+<p> <span id="datetime"></span></p>
+<a href="https://www.youtube.com/feed/subscriptions"> YOUTUBE</a>    -   <a href="https://www.hackerrank.com/dashboard"> <purp>HACKERRANK</purp></a>    -   <a href="https://jisho.org"> <bb>JISHO</bb></a>
+
+<a href="https://twitter.com/home"> TWITTER</a>    -   <a href="https://leetcode.com"> <purp>LEETCODE</purp></a>      -   <a href="https://itazuraneko.neocities.org/learn/kana.html"> <bb>KANA</bb></a> 
+
+<a href="https://www.netflix.com/browse"> NETFLIX</a>    -   <a href="https://github.com"> <purp>GITHUB</purp></a>        -   <a href="https://itazuraneko.neocities.org"> <bb>JAP</bb></a> 
+
+</pre></div></center></body>
+<script>
+    var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+</html>
